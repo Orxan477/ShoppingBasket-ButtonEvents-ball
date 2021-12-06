@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #Navbar .headerNav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 80px;
+    background-color: white;
+  }
+  
+  #Navbar .headerNav .iconCol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  #Navbar .linkCol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  #Navbar .linkCol ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  #Navbar .linkCol ul li {
+    padding: 0 20px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #Navbar .linkCol ul li span {
+    margin-right: 5px;
+  }
+  
+  #Navbar .linkCol ul a {
+    text-decoration: none;
+  }
+  
+  #Navbar .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+            font-size: 25px;
+  }
+  #pricingPlans {
+    background-color: #ebecee;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  #pricingPlans h2 {
+    margin-top: 120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  #pricingPlans .ourInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  #pricingPlans .card1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 5px;
+    background-color: white;
+  }
+  
+  #pricingPlans .card1 .price1 {
+    height: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 18px;
+    border: 1px solid gainsboro;
+  }
+  
+  #pricingPlans .card1 .count {
+    font-size: 18px;
+  }
+  
+  #pricingPlans .card1 .price2 {
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 18px;
+    color: #585CE9;
+  }
+  
+  #pricingPlans .card1 ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    font-size: 18px;
+  }
+  
+  #pricingPlans .infoCard1 .text {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 60px;
+  }
+  
+  #pricingPlans .infoCard1 .text .text3 {
+    margin-bottom: 30px;
+  }
+  
+  #pricingPlans .infoCard1 .text .text2 {
+    text-decoration: line-through;
+    color: #cdd6cd;
+  }
+  
+  #pricingPlans .infoCard1 .priceButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  #pricingPlans .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  #pricingPlans .logos h3 {
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 15px;
+  }
