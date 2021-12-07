@@ -1,18 +1,26 @@
-function count(){
-    let count=0;
-    return function(){
-        count+=1 
-        return count;
-    }
-}
-
+// function count(){
+//     let count=0;
+//     return function(){
+//         count+=1 
+//         return count;
+//     }
+// }
+var click=0;
 let buttons=document.querySelectorAll(".btn");
 
-priceButton.addEventListener("submit",function(ev){
+// buttons.forEach(btn =>{
+//     btn.addEventListener('click',()=>{
+//         click+=1
+//         document.querySelector("span").innerHTML=click
+//     })
+// });
+
+let swet=document.querySelector(".sebet");
+swet.onclick=function(ev){
     ev.preventDefault();
-    let span=document.createElement("span");
-    span.className="";
-    span.innerText=inputNumber.value;
+    swet.addEventListener("click",()=>{
+        click=1
+        document.querySelector("span").innerHTML=click
+    })
 }
-)
 
