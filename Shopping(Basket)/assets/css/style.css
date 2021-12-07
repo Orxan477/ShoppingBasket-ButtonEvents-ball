@@ -45,3 +45,9 @@ body {
   #pricingPlans .sebet{
     background-color: orange;
   }
+  #pricingPlans .distance{
+    margin-right: 20px;
+  }
+  #pricingPlans .distance1{
+    margin-left: 20px;
+  }
