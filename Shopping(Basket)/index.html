@@ -45,48 +45,65 @@
            <div class="container">
                <div class="row">
                 <div class="col-3 ">
-                    <div class="card">
+                    <div class="card" data-id="1">
                         <img class="card-img-top" src="https://cdn.dsmcdn.com/ty199/product/media/images/20211015/12/148626709/264358641/0/0_org_zoom.jpg" alt="Card image cap">
                         <div class="card-body">
-                            <h5 class="card-title">Sweatshirt</h5>
-                            <p class="card-text">139.00 TRY</p>
-                            <button class="btn btn-primary sebet"id="Sweatshirt">Sebete at</button>
-                            <label class="d-none"><button><i class="fas fa-minus distanceMinSw onclik=minus(this)"></i></button></i><span class="swet-item">1</span><button><i class="fas fa-plus distanceMaxSw"></i></button</label>
+                            <h5 class="card-title product-name">Sweatshirt</h5>
+                            <p class="card-text price-product" data-id="1">139.00 TRY</p>
+                            <button class="btn btn-primary sebet swbutton" id="Sweatshirt">Sebete at</button>
+                            <label class="d-none"><button><i class="fas fa-minus distanceMinSw "></i></button></i><span class="swet-item">1</span><button><i class="fas fa-plus distanceMaxSw"></i></button</label>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card" >
+                    <div class="card" data-id="2">
                         <img class="card-img-top" src="https://cdn.dsmcdn.com/ty204/product/media/images/20211020/13/152794270/81711096/1/1_org_zoom.jpg" alt="Card image cap">
                         <div class="card-body" id="sweter">
                             <h5 class="card-title">Headphones</h5>
-                            <p class="card-text">156.45 TRY</p>
+                            <p class="card-text price-product" data-id="2">156.45 TRY</p>
                             <button class="btn btn-primary sebet " id="headphones">Sebete at</button>
                             <label class="d-none"><button><i class="fas fa-minus distanceMinHead onclik=minus(this)"></i></button></i><span class="head-item">1</span><button><i class="fas fa-plus distanceaxHead"></i></button</label>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card" >
+                    <div class="card" data-id="3" >
                         <img class="card-img-top" src="https://cdn.dsmcdn.com/ty9/product/media/images/20200901/14/9313193/16885371/1/1_org_zoom.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Bag</h5>
-                            <p class="card-text">85.41 TRY</p>
+                            <p class="card-text price-product" data-id="3">85.41 TRY</p>
                             <button class="btn btn-primary sebet" id="bag">Sebete at</button>
                                 <label class="d-none"><button><i class="fas fa-minus distanceMinBag onclik=minus(this)"></i></button></i><span class="bag-item">1</span><button><i class="fas fa-plus distanceMaxBag"></i></button</label>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
-                    <div class="card" >
+                    <div class="card" data-id="4" >
                         <img class="card-img-top" src="https://cdn.dsmcdn.com/ty142/product/media/images/20210709/11/108545962/190983919/1/1_org_zoom.jpg" alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Bracelet</h5>
-                            <p class="card-text">20.93 TRY</p>
+                            <p class="card-text price-product" data-id="4">20.93 TRY</p>
                             <button class="btn btn-primary sebet" id="braclet">Sebete at</button>
                             <label class="d-none"><button><i class="fas fa-minus distanceMinBrac onclik=minus(this)"></i></button></i><span class="brac-item">1</span><button><i class="fas fa-plus distanceMaxBrac"></i></button</label>
                         </div>
                     </div>
+                </div>
+               </div>
+               <div class="row">
+                   <div class="col-3">
+                       <div class="productImage"></div>
+                   </div>
+                   <div class="col-2">
+                       <div class="productName"><span class="item-name"></span></div>
+                   </div>
+                   <div class="col-2">
+                       <div class="productPrice">
+                        <span class="item-price"></span>
+                       </div>
+                       <div class="col-2">
+                        <span class="item-count"></span>
+                       </div>
+                   </div>
                 </div>
                </div>
            </div>
@@ -95,10 +112,7 @@
     </main>
 
 
-
-
-    <script src="./assets/js/basket.js"></script>
-
+    <script src="./assets/js/basket-new.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
