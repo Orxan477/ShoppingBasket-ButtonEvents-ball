@@ -1,9 +1,8 @@
 let buttons= document.querySelectorAll(".sebet");
 let count= document.querySelector(".all-item");
-let productName=document.querySelectorAll(".item-name");
-let productPrice=document.querySelectorAll(".item-price");
-let countItem=document.querySelectorAll(".item-price");
-console.log(countItem);
+let productName=document.querySelector(".item-name");
+let productPrice=document.querySelector(".item-price");
+let countItem=document.querySelector(".item-count");
 
 let basket=[];
 
@@ -22,13 +21,15 @@ buttons.forEach(button => {
             };
             basket.push(product);
             count.innerText=basket.length;
-            productName.innerText="Product Id:"+product.id;
-            countItem.innerText="Product Price:"+product.count;
-            productPrice.innerText="Product Price:"+product.priceid;
+            productName.innerText="Product Id: "+product.id;
+            countItem.innerText="Product Count: "+1;
+            productPrice.innerText="Product Price: "+product.priceid;
         }
         else{
             basket[cardIndex].count += 1;
-            
+            // productName.innerText="Product Id: "+product.id;
+            // countItem.innerText="Product Count: "+1;
+            // productPrice.innerText="Product Price: "+product.priceid;
         }
     });
     
