@@ -1,6 +1,6 @@
 let buttons= document.querySelectorAll(".sebet");
 let count= document.querySelector(".all-item");
-let name= document.querySelector(".item-name");
+// let name= document.querySelector(".item-name");
 
 localStorageCheck("count",0);
 
