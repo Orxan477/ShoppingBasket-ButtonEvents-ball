@@ -1,3 +1,4 @@
+alert("Welcome! USE arrow right, arrow left ,arrow up and arrow down buttons.")
 let area=document.querySelector(".area");
 let areaWidth = area.clientWidth;
 let areaHeight=area.clientHeight;
